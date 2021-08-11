@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'uigxIPPu.ui'
+## Form generated from reading UI file 'uineUfkr.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -30,6 +30,16 @@ class Ui_SecWindow(object):
 
         self.verticalLayout.addWidget(self.label, 0, Qt.AlignHCenter)
 
+        self.lbl_Contador = QLabel(self.centralwidget)
+        self.lbl_Contador.setObjectName(u"lbl_Contador")
+        font1 = QFont()
+        font1.setPointSize(12)
+        font1.setBold(True)
+        font1.setItalic(True)
+        self.lbl_Contador.setFont(font1)
+
+        self.verticalLayout.addWidget(self.lbl_Contador, 0, Qt.AlignHCenter)
+
         self.btn_Goto = QPushButton(self.centralwidget)
         self.btn_Goto.setObjectName(u"btn_Goto")
         self.btn_Goto.setStyleSheet(u"QPushButton{\n"
@@ -57,6 +67,7 @@ class Ui_SecWindow(object):
     def retranslateUi(self, SecWindow):
         SecWindow.setWindowTitle(QCoreApplication.translate("SecWindow", u"MainWindow", None))
         self.label.setText(QCoreApplication.translate("SecWindow", u"Jajela 2", None))
+        self.lbl_Contador.setText(QCoreApplication.translate("SecWindow", u"Contador", None))
         self.btn_Goto.setText(QCoreApplication.translate("SecWindow", u"Ir para janela 1", None))
     # retranslateUi
 

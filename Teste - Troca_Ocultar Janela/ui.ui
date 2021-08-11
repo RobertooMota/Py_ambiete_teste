@@ -27,6 +27,20 @@
       </property>
      </widget>
     </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="lbl_Contador">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Contador</string>
+      </property>
+     </widget>
+    </item>
     <item>
      <widget class="QPushButton" name="btn_Goto">
       <property name="styleSheet">

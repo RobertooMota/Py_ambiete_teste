@@ -2,6 +2,7 @@ from ui import *
 from ui_Main import *
 import sys
 
+contador = 0
 
 class MainWindow(QMainWindow):
 	def __init__(self):
@@ -21,21 +22,24 @@ class SecWindow(QMainWindow):
 		self.interface2 = Ui_SecWindow()
 		self.interface2.setupUi(self)
 		self.interface2.btn_Goto.clicked.connect(lambda: funcoes.goto1(self))
+		self.interface2.lbl_Contador.setText(str(contador))
 
 
 
 class funcoes(MainWindow, SecWindow):
-	def goto1(obj):
+	def goto1(self):
 		print('goto1')
-		obj.jan1 = MainWindow()
-		obj.jan1.show()
-		obj.hide()
+		self.jan1 = MainWindow()
+		self.jan1.show()
+		global contador
+		contador += 1
+		self.hide()
 
 	def goto2(self):
 		print('goto2')
 		self.jan2 = SecWindow()
 		self.jan2.show()
-		self.hide()
+		self.setEnabled(False)
 
 
 
