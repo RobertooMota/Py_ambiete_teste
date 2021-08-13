@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainPzZVWl.ui'
+## Form generated from reading UI file 'mainViVLiF.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -30,7 +30,13 @@ class Ui_MainWindow(object):
         self.frame.setFrameShadow(QFrame.Raised)
         self.horizontalLayout = QHBoxLayout(self.frame)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.tableWidget = QTableWidget(self.frame)
+        self.frame_3 = QFrame(self.frame)
+        self.frame_3.setObjectName(u"frame_3")
+        self.frame_3.setFrameShape(QFrame.StyledPanel)
+        self.frame_3.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_2 = QHBoxLayout(self.frame_3)
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.tableWidget = QTableWidget(self.frame_3)
         if (self.tableWidget.columnCount() < 3):
             self.tableWidget.setColumnCount(3)
         __qtablewidgetitem = QTableWidgetItem()
@@ -41,7 +47,28 @@ class Ui_MainWindow(object):
         self.tableWidget.setHorizontalHeaderItem(2, __qtablewidgetitem2)
         self.tableWidget.setObjectName(u"tableWidget")
 
-        self.horizontalLayout.addWidget(self.tableWidget)
+        self.horizontalLayout_2.addWidget(self.tableWidget)
+
+
+        self.horizontalLayout.addWidget(self.frame_3)
+
+        self.frame_2 = QFrame(self.frame)
+        self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setFrameShape(QFrame.StyledPanel)
+        self.frame_2.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_3 = QHBoxLayout(self.frame_2)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.txt_Resultado = QLabel(self.frame_2)
+        self.txt_Resultado.setObjectName(u"txt_Resultado")
+        font = QFont()
+        font.setPointSize(18)
+        font.setItalic(True)
+        self.txt_Resultado.setFont(font)
+
+        self.horizontalLayout_3.addWidget(self.txt_Resultado)
+
+
+        self.horizontalLayout.addWidget(self.frame_2)
 
 
         self.verticalLayout.addWidget(self.frame)
@@ -74,6 +101,7 @@ class Ui_MainWindow(object):
         ___qtablewidgetitem1.setText(QCoreApplication.translate("MainWindow", u"NOME", None));
         ___qtablewidgetitem2 = self.tableWidget.horizontalHeaderItem(2)
         ___qtablewidgetitem2.setText(QCoreApplication.translate("MainWindow", u"IDADE", None));
+        self.txt_Resultado.setText(QCoreApplication.translate("MainWindow", u"RESULTADO:", None))
         self.btn_Atualizar.setText(QCoreApplication.translate("MainWindow", u"Atualizar", None))
     # retranslateUi
 
