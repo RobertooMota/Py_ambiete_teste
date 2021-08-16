@@ -2,7 +2,7 @@ import sqlite3
 from ui_main import *
 import sys
 
-BD = sqlite3.connect('bd.db')
+
 coluns = 3
 
 
@@ -15,6 +15,7 @@ class MainWindow(QMainWindow):
 		self.show()
 
 	def atualizar(self):
+		BD = sqlite3.connect('bd.db')
 		cursor = BD.cursor()
 		cursor.execute("""SELECT * FROM TABELA""")
 		informacoes = cursor.fetchall()
