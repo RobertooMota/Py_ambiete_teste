@@ -45,6 +45,12 @@ class MainWindow(QMainWindow):
 
 		# Remove o indice da tabela padrao (1, 2, 3, ...)
 		self.interface.tbl_Lista.verticalHeader().setVisible(False)
+
+		self.interface.tbl_Lista.setEditTriggers(QAbstractItemView.NoEditTriggers)
+
+		self.interface.tbl_Lista.set
+
+
 		print(informacoes)
 
 
