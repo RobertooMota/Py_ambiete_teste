@@ -1,5 +1,5 @@
 import sys
-from BD import BD
+from BD import BDados
 from ui_table import *
 
 
@@ -15,17 +15,18 @@ class MainWindow(QMainWindow):
 
 	def Atualizar(self):
 		# Cria uma instancia com o Banco de dados
-		informacoes = BD.AtualizarBD(self)
+		informacoes = BDados()
+		retornoInfo = informacoes.AtualizarBD()
 
 		# Cria um objeto do tipo QStandardItemModel -> necessario para o QTableView
 		# Nome do objeto = Função(quantidade de informacao, Colunas)
-		model = QStandardItemModel(len(informacoes), 3)
+		model = QStandardItemModel(len(informacoes.AtualizarBD()), 3)
 
 		# Seta Nome das colunas
 		model.setHorizontalHeaderLabels(['ID', 'Nome', 'Idade'])
 
 		# Laço para armazenar o formato de colunas e informações dentro do objeto MODEL
-		for r, info in enumerate(informacoes):
+		for r, info in enumerate(informacoes.AtualizarBD()):
 			for colum, item in enumerate(info):
 				if type(item):
 					item = str(item)
@@ -46,12 +47,11 @@ class MainWindow(QMainWindow):
 		# Remove o indice da tabela padrao (1, 2, 3, ...)
 		self.interface.tbl_Lista.verticalHeader().setVisible(False)
 
+		# Bloqueia a opção de EDIÇÃO
 		self.interface.tbl_Lista.setEditTriggers(QAbstractItemView.NoEditTriggers)
 
-		self.interface.tbl_Lista.set
-
-
-		print(informacoes)
+		informacoes.ExibirAlerta()
+		print(retornoInfo)
 
 
 if __name__ == "__main__":
