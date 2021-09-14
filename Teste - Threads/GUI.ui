@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>325</width>
-    <height>287</height>
+    <height>290</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -119,7 +119,14 @@
           <item>
            <widget class="QPushButton" name="btn_Acao">
             <property name="text">
-             <string>Acionar Secundária</string>
+             <string>Acionar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_Sair">
+            <property name="text">
+             <string>Sair</string>
             </property>
            </widget>
           </item>

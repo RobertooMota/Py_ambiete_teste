@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'GUIPYrCQd.ui'
+## Form generated from reading UI file 'GUIhlwWHC.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(325, 287)
+        MainWindow.resize(325, 290)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
@@ -92,6 +92,11 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_2.addWidget(self.btn_Acao)
 
+        self.btn_Sair = QPushButton(self.frame_4)
+        self.btn_Sair.setObjectName(u"btn_Sair")
+
+        self.horizontalLayout_2.addWidget(self.btn_Sair)
+
 
         self.verticalLayout.addWidget(self.frame_4)
 
@@ -112,6 +117,7 @@ class Ui_MainWindow(object):
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Secundaria", None))
         self.txt_Secundaria.setText(QCoreApplication.translate("MainWindow", u"Secundaria", None))
         self.btn_Parar.setText(QCoreApplication.translate("MainWindow", u"Parar", None))
-        self.btn_Acao.setText(QCoreApplication.translate("MainWindow", u"Acionar Secund\u00e1ria", None))
+        self.btn_Acao.setText(QCoreApplication.translate("MainWindow", u"Acionar", None))
+        self.btn_Sair.setText(QCoreApplication.translate("MainWindow", u"Sair", None))
     # retranslateUi
 
