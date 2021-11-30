@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a59946-4607-43bb-998d-69c91889d26c" name="Default Changelist" comment="Estudo herança de classes">
+      <change afterPath="$PROJECT_DIR$/Curso Udemy Python/ListComprehension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso Udemy Python/ZIP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Format_String/format.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste - Threads/GUI.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Teste - Threads/GUI.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste - Threads/_Thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teste - Threads/_Thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste - Threads/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teste - Threads/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste - Threads/ui_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Teste - Threads/ui_GUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +55,8 @@
       <recent name="C:\Projetos\Python\___Ambiente Teste\Teste - QTableView" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="Heranca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ZIP">
+    <configuration name="ListComprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="___Ambiente Teste" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +64,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estudo Classes/Metodo de Classes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/List Comprehension" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estudo Classes/Metodo de Classes/Heranca.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/List Comprehension/ListComprehension.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ZIP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="___Ambiente Teste" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Curso Udemy Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Curso Udemy Python/ZIP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="format" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="___Ambiente Teste" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Teste - SQLite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Format_String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Teste - SQLite/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Format_String/format.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,34 +161,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mainTable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="___Ambiente Teste" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Teste - QTableView" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Teste - QTableView/mainTable.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ZIP" />
+        <item itemvalue="Python.ListComprehension" />
+        <item itemvalue="Python.format" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python._Thread" />
-        <item itemvalue="Python.mainTable" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.Heranca" />
       </list>
     </recent_temporary>
   </component>
